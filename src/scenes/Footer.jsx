@@ -10,7 +10,7 @@ const Footer = () => {
            Shweta Sonkar
           </p>
           <p className="font-playfair text-md text-yellow">
-            ©2022 @shwetasonkar. All Rights Reserved.
+            ©2023 @shwetasonkar.
           </p>
         </div>
       </div>
