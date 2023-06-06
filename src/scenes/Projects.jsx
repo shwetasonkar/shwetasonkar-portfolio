@@ -71,12 +71,9 @@ const Projects = () => {
           viewport={{ once: true, amount: 0.2 }}
         >
            {/* ROW 1 */}
-           <div
-            className="flex justify-center text-center items-center p-22 bg-red
-              max-w-[900px] max-h-[600px] text-4xl font-playfair font-semibold"
-          >
-            TO-DO APPLICATION USING FLASK AND PYTHON
-          </div>
+           <div className="flex justify-center text-center items-center p-22 h-300 w-600 bg-red text-4xl font-playfair font-semibold">
+  TO-DO APPLICATION USING FLASK AND PYTHON
+</div>
           <Project title="Project 1" />
           <div
             className="flex justify-center text-center items-center p-22 bg-blue
