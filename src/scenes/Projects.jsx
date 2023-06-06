@@ -88,7 +88,7 @@ const Projects = () => {
              E-COMMERCE WEB PORTAL USING REACTJS AND STRAPI
           </div>
           <div
-            className="flex justify-center text-center items-center p-10 bg-red
+            className="flex justify-center text-center items-center p-10 bg-magenta
               max-w-[750px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
             EXPENSE TRACKER APP USING MERN STACK
