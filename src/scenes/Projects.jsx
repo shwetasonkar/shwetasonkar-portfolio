@@ -78,9 +78,6 @@ const Projects = () => {
             TO-DO APPLICATION USING FLASK
           </div>
           <Project title="Project 1" />
-
-          {/* ROW 3 */}
-
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
               max-w-[750px] max-h-[400px] text-2xl font-playfair font-semibold"
@@ -89,7 +86,7 @@ const Projects = () => {
           </div>
           <Project title="Project 2" />
           <div
-            className="flex justify-center text-center items-center p-10 bg-magenta
+            className="flex justify-center text-center items-center p-10 bg-green
               max-w-[750px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
             EXPENSE TRACKER APP USING MERN STACK
