@@ -73,21 +73,21 @@ const Projects = () => {
            {/* ROW 1 */}
            <div
             className="flex justify-center text-center items-center p-22 bg-red
-              max-w-[1150px] max-h-[500px] text-3xl font-playfair font-semibold"
+              max-w-[1180px] max-h-[600px] text-4xl font-playfair font-semibold"
           >
             TO-DO APPLICATION USING FLASK
           </div>
           <Project title="Project 1" />
           <div
             className="flex justify-center text-center items-center p-22 bg-blue
-              max-w-[1150px] max-h-[500px] text-3xl font-playfair font-semibold"
+              max-w-[1180px] max-h-[600px] text-4xl font-playfair font-semibold"
           >
              E-COMMERCE WEB PORTAL USING REACTJS AND STRAPI
           </div>
           <Project title="Project 2" />
           <div
             className="flex justify-center text-center items-center p-22 bg-red
-              max-w-[1150px] max-h-[500px] text-3xl font-playfair font-semibold"
+              max-w-[1180px] max-h-[600px] text-4xl font-playfair font-semibold"
           >
             EXPENSE TRACKER APP USING MERN STACK
           </div>
