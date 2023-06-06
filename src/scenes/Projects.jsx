@@ -94,7 +94,7 @@ const Projects = () => {
           >
              E-COMMERCE WEB PORTAL USING MERN
           </div>
-          <Project title="Project 2" />
+          <Project title="Project 1" />
         </motion.div>
       </div>
     </section>
