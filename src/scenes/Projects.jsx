@@ -85,8 +85,15 @@ const Projects = () => {
             className="flex justify-center text-center items-center p-10 bg-blue
               max-w-[350px] max-h-[300px] text-2xl font-playfair font-semibold"
           >
-             E-COMMERCE WEB PORTAL USING MERN
+             E-COMMERCE WEB PORTAL USING REACTJS AND STRAPI
           </div>
+          <div
+            className="flex justify-center text-center items-center p-10 bg-red
+              max-w-[350px] max-h-[300px] text-2xl font-playfair font-semibold"
+          >
+            EXPENSE TRACKER APP USING MERN STACK
+          </div>
+          <Project title="Project 3" />
         </motion.div>
       </div>
     </section>
