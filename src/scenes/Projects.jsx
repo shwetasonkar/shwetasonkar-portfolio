@@ -75,17 +75,11 @@ const Projects = () => {
   TO-DO APPLICATION USING FLASK AND PYTHON
 </div>
           <Project title="Project 1" />
-          <div
-            className="flex justify-center text-center items-center p-22 bg-blue
-              max-w-[900px] max-h-[600px] text-4xl font-playfair font-semibold"
-          >
+          <div className="flex justify-center text-center items-center p-22 h-300 w-600 bg-red text-4xl font-playfair font-semibold">
              E-COMMERCE WEB PORTAL USING REACTJS
           </div>
           <Project title="Project 2" />
-          <div
-            className="flex justify-center text-center items-center p-22 bg-red
-              max-w-[900px] max-h-[600px] text-4xl font-playfair font-semibold"
-          >
+          <div className="flex justify-center text-center items-center p-22 h-300 w-600 bg-red text-4xl font-playfair font-semibold">
             EXPENSE TRACKER APP USING MERN STACK
           </div>
           <Project title="Project 3" />
