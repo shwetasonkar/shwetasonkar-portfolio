@@ -23,7 +23,7 @@ const Project = ({ title }) => {
       <div
         className="absolute opacity-0 hover:opacity-90 transition duration-500
           bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue"
-        style={{ height: "200px", width: "100px"}} // Adjust the height and width here
+        style={{ height: "200px", width: "150px"}} // Adjust the height and width here
       >
         <p className="text-2xl font-playfair">{title}</p>
         <p className="mt-7"></p>
