@@ -16,22 +16,23 @@ const projectVariant = {
 };
 
 const Project = ({ title }) => {
-  const overlayStyles = `absolute h-200px w-100px opacity-0 hover:opacity-90 transition duration-500
-    bg-grey z-20 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
   const projectTitle = title.split(" ").join("-").toLowerCase();
 
   return (
     <motion.div variants={projectVariant} className="relative">
-      <div className={overlayStyles}>
+      <div
+        className="absolute opacity-0 hover:opacity-90 transition duration-500
+          bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue"
+        style={{ height: "300px", width: "200px" }} // Adjust the height and width here
+      >
         <p className="text-2xl font-playfair">{title}</p>
-        <p className="mt-7">
-
-        </p>
+        <p className="mt-7"></p>
       </div>
       <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
     </motion.div>
   );
 };
+
 
 const Projects = () => {
   return (
