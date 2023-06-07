@@ -23,7 +23,7 @@ const Project = ({ title }) => {
       <div
         className="absolute opacity-0 hover:opacity-90 transition duration-500
           bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue"
-        style={{ height: "200px", width: "100px"}} // Adjust the height and width here
+        style={{ height: "300px", width: "200px" }} // Adjust the height and width here
       >
         <p className="text-2xl font-playfair">{title}</p>
         <p className="mt-7"></p>
@@ -72,15 +72,15 @@ const Projects = () => {
           viewport={{ once: true, amount: 0.2 }}
         >
            {/* ROW 1 */}
-           <div className="flex justify-center text-center items-center p-22 h-300 w-500 bg-red text-3xl font-playfair font-semibold">
+           <div className="flex justify-center text-center text-red items-center p-22 h-300 w-500 bg-purple text-3xl font-playfair font-semibold">
   TO-DO APPLICATION USING FLASK AND PYTHON
 </div>
           <Project title="Project 1" />
-          <div className="flex justify-center text-center items-center p-22 h-300 w-500 bg-red text-3xl font-playfair font-semibold">
+          <div className="flex justify-center text-center text-blue items-center p-22 h-300 w-500 text-3xl font-playfair font-semibold">
              E-COMMERCE WEB PORTAL USING REACTJS
           </div>
           <Project title="Project 2" />
-          <div className="flex justify-center text-center items-center p-22 h-300 w-500 bg-red text-3xl font-playfair font-semibold">
+          <div className="flex justify-center text-center text-red  items-center p-22 h-300 w-500  text-3xl font-playfair font-semibold">
             EXPENSE TRACKER APP USING MERN STACK
           </div>
           <Project title="Project 3" />
