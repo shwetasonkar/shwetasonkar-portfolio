@@ -72,15 +72,15 @@ const Projects = () => {
           viewport={{ once: true, amount: 0.2 }}
         >
            {/* ROW 1 */}
-           <div className="flex justify-center text-center items-center p-22 h-300 w-500 bg-red text-4xl font-playfair font-semibold">
+           <div className="flex justify-center text-center items-center p-22 h-300 w-500 bg-red text-3xl font-playfair font-semibold">
   TO-DO APPLICATION USING FLASK AND PYTHON
 </div>
           <Project title="Project 1" />
-          <div className="flex justify-center text-center items-center p-22 h-300 w-500 bg-red text-4xl font-playfair font-semibold">
+          <div className="flex justify-center text-center items-center p-22 h-300 w-500 bg-red text-3xl font-playfair font-semibold">
              E-COMMERCE WEB PORTAL USING REACTJS
           </div>
           <Project title="Project 2" />
-          <div className="flex justify-center text-center items-center p-22 h-300 w-500 bg-red text-4xl font-playfair font-semibold">
+          <div className="flex justify-center text-center items-center p-22 h-300 w-500 bg-red text-3xl font-playfair font-semibold">
             EXPENSE TRACKER APP USING MERN STACK
           </div>
           <Project title="Project 3" />
