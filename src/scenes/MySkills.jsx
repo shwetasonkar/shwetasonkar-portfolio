@@ -2,6 +2,7 @@ import LineGradient from "../components/LineGradient";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 
+
 const MySkills = () => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
   return (
@@ -25,22 +26,34 @@ const MySkills = () => {
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
           <p className="font-playfair font-semibold text-3xl mb-5">
-            <span className="text-blue">Tech Stack</span>
 
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"></link>
-          <p className="text-5xl font-playfair z-10 text-center md:text-start">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"></link>
+          <p className="text-6xl font-playfair z-10 text-center md:text-start text-black">
           <div class="icon-container">
-                <i class="devicon-c-line-wordmark"></i>
-                <i class="devicon-cplusplus-line-wordmark"></i>
-                <i class="devicon-html5-plain-wordmark"></i>
-                <i class="devicon-css3-plain-wordmark"></i>
-                <i class="devicon-javascript-plain"></i>
-                <i class="devicon-java-plain-wordmark"></i>
-                <i class="devicon-python-plain-wordmark"></i>
-                </div>
+  <div class="icon-line">
+    <i class="devicon-c-plain colored"></i>
+    <i class="devicon-cplusplus-plain colored"></i>
+    <i class="devicon-html5-plain-wordmark colored"></i>
+    <i class="devicon-css3-plain-wordmark colored"></i>
+    <i class="devicon-javascript-plain colored"></i>
+    <i class="devicon-java-plain-wordmark colored"></i>
+
+  </div>
+  <div class="icon-line" >
+
+  <i class="devicon-python-plain-wordmark colored"></i>
+    <i class="devicon-mysql-plain-wordmark colored"></i>
+    <i class="devicon-mongodb-plain-wordmark colored"></i>
+    <i class="devicon-react-original-wordmark colored"></i>
+    <i class="devicon-nodejs-plain-wordmark colored"></i>
+    <i class="devicon-express-original-wordmark colored"></i>
+    <i class="devicon-flask-original-wordmark"></i>
+  </div>
+</div>
+
                 </p>
-                </p>
-          </p>
+    </p>
+    </p>
         </motion.div>
 
         <div className="mt-16 md:mt-0">
@@ -62,7 +75,9 @@ const MySkills = () => {
       </div>
 
       {/* SKILLS */}
-      <div className="md:flex md:justify-between mt-16 gap-32">
+
+
+  <div className="md:flex md:justify-between mt-16 gap-32">
         {/* EXPERIENCE */}
         <motion.div
           className="md:w-1/3 mt-10"
@@ -75,11 +90,11 @@ const MySkills = () => {
             visible: { opacity: 1, y: 0 },
           }}
         >
-          <div className="relative h-32">
+          <div className="relative h-12">
             <div className="z-10">
-              <p className="font-playfair font-semibold text-4xl">01</p>
+              <p className="font-playfair font-semibold text-4xl">01  Creative</p>
               <p className="font-playfair font-semibold text-2xl mt-3">
-                Creative
+
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
@@ -90,7 +105,9 @@ const MySkills = () => {
           different mediums.
 
           </p>
-        </motion.div>
+    </motion.div>
+
+
 
         {/* INNOVATIVE */}
         <motion.div
@@ -104,11 +121,11 @@ const MySkills = () => {
             visible: { opacity: 1, y: 0 },
           }}
         >
-          <div className="relative h-32">
+          <div className="relative h-12">
             <div className="z-10">
-              <p className="font-playfair font-semibold text-4xl">02</p>
+              <p className="font-playfair font-semibold text-4xl">02 Innovative</p>
               <p className="font-playfair font-semibold text-2xl mt-3">
-                Innovative
+
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
@@ -131,11 +148,11 @@ const MySkills = () => {
             visible: { opacity: 1, y: 0 },
           }}
         >
-          <div className="relative h-32">
+          <div className="relative h-12">
             <div className="z-10">
-              <p className="font-playfair font-semibold text-4xl">03</p>
+              <p className="font-playfair font-semibold text-4xl">03 Visionary</p>
               <p className="font-playfair font-semibold text-2xl mt-3">
-                Imaginative
+
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
